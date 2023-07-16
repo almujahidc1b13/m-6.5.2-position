@@ -4,8 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>css position</title>
+    <style>
+        .box{
+            border: 2px dotted;
+
+        }
+        ol> :first-child{
+            position: sticky;
+            top: 10px;
+        }
+        /* #ring{ */
+            /* position: absolute; */
+            /* left: 100px; */
+
+        
+        h1{
+            position: sticky;
+            
+        }
+
+    </style>
 </head>
 <body>
+    <header>
+        <h1>CSS position</h1>
+    </header>
+    <body>
+        <h3> CSS position = 5 kind of css position</h3>
+        <ol>
+            <li>static</li>
+            <li>relative</li>
+            <li>absolute</li>
+            <li>fixed</li>
+            <li>sticky</li>
+
+        </ol>
+        <div class="swim-container">
+            <div class="box"><img src="images/hardy.png" height="200px" width="200px" alt=""></div>
+            <div class="box" id="ring"><img src="images/developer.png" height="200px" width="200px" alt=""></div>
+            <div class="box"><img src="images/header_bg.png" height="200px" width="200px" alt=""></div>
+        </div>
+        <box class="dummy"></box>
+        <box class="dummy"></box>
+        <box class="dummy"></box>
+        <box class="dummy"></box>
+        <box class="dummy"></box>
+
+    </body>
     
 </body>
 </html>
